@@ -2,6 +2,9 @@ body {
     margin: 0;
     padding: 0;
 }
+.mobile{
+    display: none;
+}
 .header {
     width: 100%;
     margin-top: 0px;
@@ -37,5 +40,68 @@ body {
 color: #0065FC;
 border-top: 3px solid #0065FC;
 padding-top: 50px;
+}
+@media  screen and (max-width: 400px) {
+    .mobile{
+        display: block;
+        width: 100%;
+        
+    }
+    .header__nav, .header__logo{
+        display: none;
+    }
+    .mobile__header {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between
+    }.mobile p {
+        margin: 0;
+    }
+    .mobile img {        
+        width: 93px;
+        height: 30px;
+        padding-top: 31px;
+        padding-left: 21px;
+        
+    }
+    .mobile p {        
+        padding-right: 21px;
+        padding-top: 43px;
+    }
+    .mobile a{
+        text-decoration: none;
+        color: black;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+    .mobile ul{
+        margin-left: 0;
+        display: flex;        
+        list-style: none;
+        justify-content: space-around;
+        width: 100%;
+        
+    }
+    .mobile li {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        text-align: center;        
+        width: 50%;
+        border-bottom: 2px solid #f2f2f2;
+    }
+    .mobile a:visited{
+        color: #0065FC;
+    }
+    a:hover{
+        color: #0065FC;
+    }
+    
+    li:hover{
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 20px;
+    }
 }
 
