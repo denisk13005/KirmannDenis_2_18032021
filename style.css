@@ -8,16 +8,13 @@ body {
     display: flex;
     justify-content: space-between;
 }
-.header__logo{
-}
+
 .header__logo img{
     width: 95px;
     height: 30px;
     margin-top: 52px;
     margin-left: 54px;
     
-}
-.header__nav{
 }
 .header__nav ul{
     display: flex;
