@@ -108,7 +108,7 @@ padding-top: 50px;
         width: 100%;
         
     }
-    .mobile li:hover{
+    .mobile li:active{ /*active car sur smartphone*/
         border-bottom: 2px solid blue;
     }
     .mobile li {
@@ -160,10 +160,18 @@ padding-top: 50px;
         
     }
     .header__nav li{
+        margin-top: 0;
         margin-right: 0;
         margin-left: 25px;
         padding-top: 5px;
     }
+    .header__nav a:hover{ /*hover car sur tablette possibilité d'avoir un clavier souris*/
+        border-top: 2px solid #0065FC;
+        padding-top: 11px;
+        
+        
+    }
+
     .premierParagraphe{
         display: flex;
         float: left ;
