@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0;
     padding: 0;
 }
 .mobile{
@@ -17,6 +18,7 @@ body {
     height: 30px;
     margin-top: 52px;
     margin-left: 54px;
+    
     
 }
 .header__nav ul{
@@ -42,14 +44,22 @@ border-top: 3px solid #0065FC;
 padding-top: 50px;
 }
 @media  screen and (max-width: 400px) {
-    .mobile{
-        display: block;
-        width: 100%;
-        
-    }
     .header__nav, .header__logo{
         display: none;
     }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .mobile{
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+    
     .mobile__header {
         padding: 0;
         margin: 0;
@@ -65,14 +75,16 @@ padding-top: 50px;
         padding-left: 21px;
         
     }
-    .mobile p {        
-        padding-right: 21px;
-        padding-top: 43px;
-    }
+    
     .mobile a{
         text-decoration: none;
         color: black;
     }
+    .mobile p {        
+        padding-right: 21px;
+        padding-top: 43px;
+        
+    }    
     ul{
         margin: 0;
         padding: 0;
@@ -91,17 +103,21 @@ padding-top: 50px;
         text-align: center;        
         width: 50%;
         border-bottom: 2px solid #f2f2f2;
+    } 
+    
+    
+    li:hover{
+        border-bottom: 2px solid #0065FC;
+        
     }
-    .mobile a:visited{
+    a:visited{
         color: #0065FC;
     }
     a:hover{
         color: #0065FC;
     }
     
-    li:hover{
-        border-bottom: 2px solid #0065FC;
-        padding-bottom: 20px;
-    }
+
+   
 }
 
