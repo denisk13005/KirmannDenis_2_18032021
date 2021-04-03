@@ -1,3 +1,4 @@
+/**********DESKTOP***********/
 body {
     font-family: 'Raleway', sans-serif;
     margin-top: 0;
@@ -43,7 +44,8 @@ color: #0065FC;
 border-top: 3px solid #0065FC;
 padding-top: 50px;
 }
-@media  screen and (max-width: 400px) {
+/***********SMARTPHONE****************/
+@media  screen and (max-width: 414px) {
     .header__nav, .header__logo{
         display: none;
     }
@@ -106,9 +108,8 @@ padding-top: 50px;
     } 
     
     
-    li:hover{
-        border-bottom: 2px solid #0065FC;
-        
+    .mobile li:hover{
+        border-bottom: 2px solid #0065fc;
     }
     a:visited{
         color: #0065FC;
@@ -116,8 +117,72 @@ padding-top: 50px;
     a:hover{
         color: #0065FC;
     }
+    .premierParagraphe{
+        display: none;
+    }
     
 
    
+}
+/************TABLETTE************/
+@media screen and (min-width:416px) and (max-width : 1366px){
+    body{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .mobile{
+        display: none;
+    }
+    .header{
+        display: flex;
+        margin: 0;
+        padding: 0; 
+        height: 5vh;       
+        width: 57%;
+        float: right;
+    }
+    .header__logo{
+        margin-top: 0;
+        margin-left: 50px;
+        padding: 0;
+    }
+    .header__logo p{
+        margin-top: 0px;
+
+    }
+    .header__logo img {
+        height: 40px;
+        width: 110px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .header__nav ul{
+        margin-top: 0;
+
+        
+    }
+    .header__nav li{
+        margin-left: 25px;
+        padding-top: 5px;
+    }
+    .premierParagraphe{
+        display: flex;
+        float: left ;
+             
+        width: 40%;        
+    }
+    .premierParagraphe p{
+        margin-right: 20px;
+        font-size: 0.9em;
+        float: right;
+        margin-top: 0;
+        text-align: center;
+        
+    }
+    .premierParagraphe p:nth-child(1){
+        font-weight: bold;
+    }
+
 }
 
