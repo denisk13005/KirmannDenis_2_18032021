@@ -13,6 +13,10 @@ body {
     display: flex;
     justify-content: space-between;
 }
+.header__logo{
+    margin: 0;
+    padding: 0;
+}
 
 .header__logo img{
     width: 95px;
@@ -45,6 +49,10 @@ border-top: 3px solid #0065FC;
 padding-top: 50px;
 
 }
+.premierParagraphe p:nth-child(1){
+    font-weight: bold;
+}
+
 /***********SMARTPHONE****************/
 @media  screen and (max-width: 414px) {
     .header__nav, .header__logo{  /*cache le header desktop*/
@@ -186,9 +194,6 @@ padding-top: 50px;
         text-align: center;
         
     }
-    .premierParagraphe p:nth-child(1){
-        font-weight: bold;
-    }
-
+    
 }
 
