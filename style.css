@@ -1,10 +1,10 @@
 /**********DESKTOP***********/
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway-bold', sans-serif;
     margin-top: 0;
     padding: 0;
 }
-.mobile{
+.mobile, .search--mobile{
     display: none;
 }
 .header {
@@ -44,18 +44,55 @@ body {
     color: #0065FC;
 }
 .header__nav a:hover {
-color: #0065FC;
-border-top: 3px solid #0065FC;
-padding-top: 50px;
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+    padding-top: 50px;
 
 }
 .premierParagraphe p:nth-child(1){
     font-weight: bold;
 }
+.search {
+    
+    clear: both;      
+    width: auto;
+    display: flex;
+    margin-left: 10px;
+    
+}
+.search i{ 
+    font-size: 1.2em;              
+    border-radius: 15px 0px 0px 15px;
+    width: 52px;
+    height: 52px;
+    background-color: #f2f2f2;        
+    line-height: 50px;
+    text-align: center;
+}
+.search input {
+    padding-left: 16px;
+    border: 1px solid #f2f2f2;
+    font-weight: bold;
+    font-size: 1.05em;
+    width: 230px;
+    margin-right: -20px;
+    
+}
+.search input:focus {
+    border: 1px solid #f2f2f2;
+    outline: none;
+}
+.search button {
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    color: white;
+    background-color: #0065fc;
+    font-size: 1.05em;
+}
 
-/***********SMARTPHONE****************/
+/*************************SMARTPHONE****************************/
 @media  screen and (max-width: 414px) {
-    .header__nav, .header__logo{  /*cache le header desktop*/
+    .header__nav, .header__logo, .search{  /*cache le header desktop*/
         display: none;
     }
     
@@ -83,7 +120,7 @@ padding-top: 50px;
     }
     .mobile img {        
         width: 93px;
-        height: 30px;
+        height: 40px;
         padding-top: 31px;
         padding-left: 21px;
         
@@ -102,6 +139,7 @@ padding-top: 50px;
     .mobile p {        
         padding-right: 21px;
         padding-top: 43px;
+        font-weight: bold;
         
     }    
     ul{
@@ -134,17 +172,17 @@ padding-top: 50px;
     } 
     .premierParagraphe p:nth-child(1){
         font-size: 22px;
+        font-weight: bold;
         margin-bottom: 16px;
     }
-    .search{
-        width: 100%;
+    .search--mobile{
+        width: auto;
         display: flex;
         margin-left: 21px;
         margin-right: 21px;
     }
-    .search i{ 
-        font-size: 1.2em;
-        margin-left: 2px;       
+    .search--mobile i{ 
+        font-size: 1.2em;              
         border-radius: 15px 0px 0px 15px;
         width: 52px;
         height: 52px;
@@ -152,7 +190,7 @@ padding-top: 50px;
         line-height: 50px;
         text-align: center;
     }
-    .search input {
+    .search--mobile input {
         padding-left: 16px;
         border: 1px solid #f2f2f2;
         font-weight: bold;
@@ -161,15 +199,15 @@ padding-top: 50px;
         margin-right: -20px;
         
     }
-    .search input:focus {
+    .search--mobile input:focus {
         border: 1px solid #f2f2f2;
         outline: none;
     }
-    .search button {
+    .search--mobile button {
         border: none;
         background-color :#0065FC;
         color: white;
-        font-size: 1.2em;
+        font-size: 1.1em;
         border-radius: 16px;
         width: 51px;
     }
@@ -181,15 +219,14 @@ padding-top: 50px;
         width: 100%;
         margin: 0;
         padding: 0;
-    }
+    }    
     .mobile{
         display: none;
     }
     .header{
         display: flex;
         margin: 0;
-        padding: 0; 
-        height: 5vh;       
+        padding: 0;              
         width: 57%;
         float: right;
     }
@@ -229,9 +266,8 @@ padding-top: 50px;
 
     .premierParagraphe{
         display: flex;
-        float: left ;
-             
-        width: 40%;        
+        float: left ;             
+        width: 40%;          
     }
     .premierParagraphe p{
         margin-right: 20px;
@@ -241,6 +277,14 @@ padding-top: 50px;
         text-align: center;
         
     }
+    .search {
+        width: 380px;        
+    }
+    .search i {
+        height: 45px;
+        line-height: 45px;
+    }
+    
     
 }
 
