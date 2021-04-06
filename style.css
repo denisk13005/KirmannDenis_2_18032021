@@ -4,9 +4,7 @@ body {
     margin-top: 0;
     padding: 0;
 }
-.mobile, .search--mobile{
-    display: none;
-}
+
 .header {
     width: 100%;
     margin-top: 0px;
@@ -33,6 +31,9 @@ body {
     list-style-type: none;
     flex-wrap: wrap;
 }
+.mobile {
+    display: flex;
+}
 .header__nav li{
     margin-left: 70px;
 }
@@ -48,9 +49,6 @@ body {
     border-top: 3px solid #0065FC;
     padding-top: 50px;
 
-}
-.premierParagraphe p:nth-child(1){
-    font-weight: bold;
 }
 .search {
     
@@ -91,96 +89,96 @@ body {
 }
 
 /*************************SMARTPHONE****************************/
-@media  screen and (max-width: 414px) {
-    .header__nav, .header__logo, .search{  /*cache le header desktop*/
-        display: none;
-    }
-    
+@media  screen and (min-width: 350px) and (max-width : 834px){    
     body{
         margin: 0;
         padding: 0;
     }
-    .mobile{
+    .header {
         display: block;
+        height: 10vh;
         width: 100%;
-        margin: 0;
-        padding: 0;
-        
         
     }
     
-    .mobile__header {
+    .header__logo img{
+        margin: 0;
         padding: 0;
-        margin: 0;
-        display: flex;
-        justify-content: space-between
-    }
-    .mobile p {
-        margin: 0;
-    }
-    .mobile img {        
-        width: 93px;
-        height: 40px;
-        padding-top: 31px;
         padding-left: 21px;
-        
+        padding-top: 32px;
     }
-    
-    
-    .mobile a{
-        text-decoration: none;
-        color: black;
-    }
-    .mobile a:visited {
-        color: #0065FC;
-    }
-    
-    
-    .mobile p {        
-        padding-right: 21px;
-        padding-top: 43px;
-        font-weight: bold;
-        
-    }    
-    ul{
-        margin: 0;
-        padding: 0;
-    }
-    .mobile ul{
+    .header__nav {
         margin-left: 0;
-        display: flex;        
-        list-style: none;
-        justify-content: space-around;
-        width: 100%;
+        padding: 0;
+        width: auto;
+    }
+    .header__nav ul {
+        
+        margin: 0;
+         padding: 0;
+        flex-direction: column;        
+        height: 100%;
+        justify-content: flex-start;
+       
+    }
+    .header__nav li {
+        margin-left: 0;
+        text-align: right;
+        justify-content: flex-start;
         
     }
-    .mobile li:active{ /*active car sur smartphone*/
-        border-bottom: 2px solid blue;
+    .mobile {
+        display: flex;
+        justify-content: space-around;
+        
     }
-    .mobile li {
-        padding-top: 30px;
-        padding-bottom: 20px;
-        text-align: center;        
+    .mobile li{
         width: 50%;
-        border-bottom: 2px solid #f2f2f2;
+        text-align: center;
     }
+    .inscription {
+        order: -2; 
+        margin-top: -29px;   
+        margin-bottom: 44px; 
+        padding-right: 21px;   
+        
+    }
+    .header__nav a:hover{
+        border-top: none;
+    }    
+    
+    .mobile li a:visited{
+        border-bottom-color: 2px solid #d6fc00;
+      
+    }
+    .mobile li:active{
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 20px;
+    }
+
+    
+    
     .premierParagraphe{
         margin-top: 36px;
         margin-right: 66px;
         margin-left: 21px;
         
     } 
+
     .premierParagraphe p:nth-child(1){
         font-size: 22px;
         font-weight: bold;
         margin-bottom: 16px;
     }
+
     .search--mobile{
         width: auto;
         display: flex;
         margin-left: 21px;
         margin-right: 21px;
     }
+
     .search--mobile i{ 
         font-size: 1.2em;              
         border-radius: 15px 0px 0px 15px;
@@ -190,6 +188,7 @@ body {
         line-height: 50px;
         text-align: center;
     }
+
     .search--mobile input {
         padding-left: 16px;
         border: 1px solid #f2f2f2;
@@ -199,10 +198,12 @@ body {
         margin-right: -20px;
         
     }
+
     .search--mobile input:focus {
         border: 1px solid #f2f2f2;
         outline: none;
     }
+
     .search--mobile button {
         border: none;
         background-color :#0065FC;
@@ -212,57 +213,16 @@ body {
         width: 51px;
     }
     
-}
+
 /************TABLETTE************/
-@media screen and (min-width:416px) and (max-width : 1366px){
-    body{
+@media screen and (min-width:834) and (max-width : 1366px){
+    body{        
         width: 100%;
         margin: 0;
         padding: 0;
     }    
-    .mobile{
-        display: none;
-    }
-    .header{
-        display: flex;
-        margin: 0;
-        padding: 0;              
-        width: 57%;
-        float: right;
-    }
-    .header__logo{
-        margin-top: 0;
-        margin-left: 40px;
-        padding: 0;
-    }
-    .header__logo p{
-        margin-top: 0px;
-
-    }
-    .header__logo img {
-        height: 40px;
-        width: 110px;
-        margin-top: 0px;
-        margin-left: 0px;
-    }
-    .header__nav ul{
-        margin-top: 8px;
-        margin-right: 20px;
-
-        
-    }
-    .header__nav li{
-        margin-top: 0;
-        margin-right: 0;
-        margin-left: 25px;
-        padding-top: 5px;
-    }
-    .header__nav a:hover{ /*hover car sur tablette possibilité d'avoir un clavier souris*/
-        border-top: 2px solid #0065FC;
-        padding-top: 11px;
-        
-        
-    }
+    
+    
 
     .premierParagraphe{
         display: flex;
@@ -287,4 +247,4 @@ body {
     
     
 }
-
+}
