@@ -12,22 +12,25 @@ body {
     justify-content: space-between;
 }
 .header__logo{
+    width: 33%;
     margin: 0;
     padding: 0;
 }
 
 .header__logo img{
     width: 95px;
-    height: 30px;
-    margin-top: 52px;
+    height: 40px;
+    margin-top: 44px;
     margin-left: 54px;
+    
+    
     
     
 }
 .header__nav ul{
     display: flex;
     margin-right: 78px;
-    margin-top: 52px;
+    margin-top: 46px;
     list-style-type: none;
     flex-wrap: wrap;
 }
@@ -44,10 +47,10 @@ body {
 .header__nav a:visited {
     color: #0065FC;
 }
-.header__nav a:hover {
+.header__nav a:active {
     color: #0065FC;
     border-top: 3px solid #0065FC;
-    padding-top: 50px;
+    padding-top: 44px;
 
 }
 .search {
@@ -100,17 +103,20 @@ body {
         width: 100%;
         
     }
+    .header__logo {
+    }
     
     .header__logo img{
         margin: 0;
         padding: 0;
         padding-left: 21px;
-        padding-top: 32px;
+        padding-top: 21px;
     }
     .header__nav {
+        
         margin-left: 0;
         padding: 0;
-        width: auto;
+        
     }
     .header__nav ul {
         
@@ -138,23 +144,20 @@ body {
     }
     .inscription {
         order: -2; 
-        margin-top: -29px;   
-        margin-bottom: 44px; 
+        margin-top: -23px;   
+        margin-bottom: 26px; 
         padding-right: 21px;   
         
-    }
-    .header__nav a:hover{
-        border-top: none;
     }    
-    
-    .mobile li a:visited{
-        border-bottom-color: 2px solid #d6fc00;
-      
+   
+    .header__nav a:active {
+        border-top: none;
     }
+
     .mobile li:active{
-        color: #0065FC;
+        color: #0065FC;       
         border-bottom: 2px solid #0065FC;
-        padding-bottom: 20px;
+        padding-bottom: 17px;
     }
 
     
