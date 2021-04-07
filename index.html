@@ -14,45 +14,33 @@
 </head>
 
 <body>
-    <header class="header">
-        <!--header desktop-->
+    <header class="header">        
         <p class="header__logo"><img src="images/logo/Reservia@3x.png" alt="logo de l'agence"></p>
         <nav class="header__nav ">
             <ul>
-                <li><a href="#Hébergements">Hébergements</a></li>
-                <li><a href="#Activités">Activités</a></li>
-                <li><a href="#">S'inscrire</a></li>
+                <div class="mobile">
+                    <li class="hébergements"><a href="#Hébergements">Hébergements</a></li>
+                    <li class="activités"><a href="#Activités">Activités</a></li>
+                </div>                
+                <li class="inscription"><a href="#">S'inscrire</a></li>
             </ul>
-        </nav>
-        <!--header smartphone-->
-        <div class="mobile">
-            <div class="mobile__header">
-                <img src="images/logo/Reservia@3x.png" alt="">
-                <p><a href="#">S'inscrire</a></p>
-            </div>
-
-            <ul>
-                <li><a href="#Hébergements">Hébergements</a></li>
-                <li><a href="#Activités">Activités</a></li>
-            </ul>
-        </div>
+        </nav>        
     </header>
+    <!--
     <div class="premierParagraphe">
-        <p>Trouvez votre hébergement pour des vacances de rêve</p>
-        <p>En plein centre ville ou en pleine nature</p>
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <h2>En plein centre ville ou en pleine nature</h2>
     </div>
-    <!--barre de recherche tablette et desktop-->
+    
     <div class="search">
         <i class="fas fa-map-marker-alt"></i>
         <input type="text" placeholder="Marseille,France">
-        <button>Rechercher</button>
-    </div>
-    <!--barre de recherche mobile-->
-    <div class="search--mobile">
-        <i class="fas fa-map-marker-alt"></i>
-        <input type="text" placeholder="Marseille,France">
-        <button  class="fas fa-search"></button>
-    </div>
+        <button class="btn">Rechercher</button>
+        <span class="loupe"><i></i></span>
+    </div>  
+
+-->
+    
 </body>
 
 </html>
