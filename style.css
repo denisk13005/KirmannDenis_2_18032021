@@ -92,19 +92,18 @@ body {
 }
 
 /*************************SMARTPHONE****************************/
-@media  screen and (min-width: 350px) and (max-width : 834px){    
+@media  screen and (min-width: 350px) and (max-width : 865px){    
     body{
         margin: 0;
         padding: 0;
     }
     .header {
         display: block;
-        height: 10vh;
+        height: 100px;
         width: 100%;
         
     }
-    .header__logo {
-    }
+  
     
     .header__logo img{
         margin: 0;
@@ -175,71 +174,23 @@ body {
         margin-bottom: 16px;
     }
 
-    .search--mobile{
-        width: auto;
-        display: flex;
-        margin-left: 21px;
-        margin-right: 21px;
-    }
-
-    .search--mobile i{ 
-        font-size: 1.2em;              
-        border-radius: 15px 0px 0px 15px;
-        width: 52px;
-        height: 52px;
-        background-color: #f2f2f2;        
-        line-height: 50px;
-        text-align: center;
-    }
-
-    .search--mobile input {
-        padding-left: 16px;
-        border: 1px solid #f2f2f2;
-        font-weight: bold;
-        font-size: 1.05em;
-        width: 230px;
-        margin-right: -20px;
-        
-    }
-
-    .search--mobile input:focus {
-        border: 1px solid #f2f2f2;
-        outline: none;
-    }
-
-    .search--mobile button {
-        border: none;
-        background-color :#0065FC;
-        color: white;
-        font-size: 1.1em;
-        border-radius: 16px;
-        width: 51px;
-    }
     
 
+
+ 
+
+  
+
+
 /************TABLETTE************/
-@media screen and (min-width:834) and (max-width : 1366px){
+@media screen and (min-width:865) and (max-width : 1366px){
     body{        
         width: 100%;
         margin: 0;
         padding: 0;
-    }    
-    
-    
+    }      
 
-    .premierParagraphe{
-        display: flex;
-        float: left ;             
-        width: 40%;          
-    }
-    .premierParagraphe p{
-        margin-right: 20px;
-        font-size: 0.9em;
-        float: right;
-        margin-top: 0;
-        text-align: center;
-        
-    }
+    
     .search {
         width: 380px;        
     }
