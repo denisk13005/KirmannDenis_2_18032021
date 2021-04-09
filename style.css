@@ -1,4 +1,22 @@
 /**********DESKTOP***********/
+/*********404**************/
+.error {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+   
+
+}
+.error img{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+     
+    
+}
+
+/**********FIN404***************/
 body {
     font-family: 'Raleway-bold', sans-serif;
     margin-top: 0;
@@ -53,12 +71,14 @@ body {
     padding-top: 44px;
 
 }
-.search {
+.premierParagraphe{
+    margin-left: 54px;
+}
+.search { 
     
-    clear: both;      
     width: auto;
     display: flex;
-    margin-left: 10px;
+    margin-left: 52px;
     
 }
 .search i{ 
