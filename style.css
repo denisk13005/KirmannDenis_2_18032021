@@ -5,20 +5,16 @@
     margin: 0;
     padding: 0;
     position: fixed;
-   
-
 }
 .error img{
     width: 100%;
     height: 100vh;
-    position: absolute;
-     
-    
+    position: absolute;    
 }
 
 /**********FIN404***************/
 body {
-    font-family: 'Raleway-bold', sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin-top: 0;
     padding: 0;
 }
@@ -73,10 +69,21 @@ body {
 }
 .premierParagraphe{
     margin-left: 54px;
-}
-.search { 
+    width: 574px;
     
-    width: auto;
+    
+}
+h1 {
+    font-size: 1.21em;
+    
+}
+h2 {
+    font-weight: normal;
+    font-size: 0.98em;
+}
+
+.search {     
+    margin-top: 22px;
     display: flex;
     margin-left: 52px;
     
@@ -96,8 +103,11 @@ body {
     font-weight: bold;
     font-size: 1.05em;
     width: 230px;
-    margin-right: -20px;
-    
+    margin-right: -20px;    
+}
+.search input::placeholder {
+    color: black;
+    opacity: 1;
 }
 .search input:focus {
     border: 1px solid #f2f2f2;
@@ -109,6 +119,9 @@ body {
     color: white;
     background-color: #0065fc;
     font-size: 1.05em;
+}
+.loupe{    /*cache l'icone loupe*/
+    display: none;
 }
 
 /*************************SMARTPHONE****************************/
@@ -160,6 +173,8 @@ body {
     .mobile li{
         width: 50%;
         text-align: center;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 14px;
     }
     .inscription {
         order: -2; 
@@ -176,24 +191,52 @@ body {
     .mobile li:active{
         color: #0065FC;       
         border-bottom: 2px solid #0065FC;
-        padding-bottom: 17px;
+        padding-bottom: 14px;
     }
-
+    h1 {
+        font-size: 1.2em;
+    }
+    h2 {
+        font-size: 0.95em;
+    }
     
     
     .premierParagraphe{
-        margin-top: 36px;
+        
+        margin-top: 55px;
         margin-right: 66px;
+        margin-left: 21px;        
+    } 
+    .search {
+        width: 336px;
+        margin-top: 35px;
         margin-left: 21px;
         
-    } 
-
-    .premierParagraphe p:nth-child(1){
-        font-size: 22px;
-        font-weight: bold;
-        margin-bottom: 16px;
     }
+    .btn {
+        display: none;
+    }
+    
+    .search .loupe {
+        display: block;
+        color: white;        
+        border-radius: 15px;       
+        margin: 0;
+        padding: 0;
+        margin-left: 3px;
+       
+    }
+    .loupe i {
+        background-color: #0065FC;
+        border-radius: 15px;
+        font-size: 1em;
+        margin-right: 0;
 
+       
+    }
+    
+
+    
     
 
 
@@ -211,14 +254,7 @@ body {
     }      
 
     
-    .search {
-        width: 380px;        
-    }
-    .search i {
-        height: 45px;
-        line-height: 45px;
-    }
-    
+   
     
 }
 }
