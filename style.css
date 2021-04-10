@@ -148,10 +148,7 @@ h2 {
     border-left: transparent;
     margin-right: 24px;
     padding-right: 22px;
-    transition :  ease-in-out 0.5s;
-    
-
-    
+    transition :  ease-in-out 0.5s;    
     
 }
 .btnBox:hover {
@@ -159,7 +156,7 @@ h2 {
     background-color: #DEEBFF;
     border: 2px solid #DEEBFF;
     margin-right: 22px;
-    font-size: 1.2em;
+    
 
     
     
