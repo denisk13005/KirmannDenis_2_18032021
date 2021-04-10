@@ -69,23 +69,25 @@ body {
 }
 .premierParagraphe{
     margin-left: 54px;
-    width: 574px;
+    width: auto;
     
     
 }
 h1 {
-    font-size: 1.21em;
+    font-size: 1.35em;
     
 }
 h2 {
     font-weight: normal;
-    font-size: 0.98em;
+    font-size: 1em;
 }
 
-.search {     
+.search {    
+
     margin-top: 22px;
     display: flex;
     margin-left: 52px;
+    width: 420px;
     
 }
 .search i{ 
@@ -114,6 +116,8 @@ h2 {
     outline: none;
 }
 .search button {
+    width: 133px;
+    margin-left: 6px;
     border: none;
     border-radius: 0px 15px 15px 0px;
     color: white;
@@ -194,10 +198,12 @@ h2 {
         padding-bottom: 14px;
     }
     h1 {
-        font-size: 1.2em;
+        font-size: 1.25em;
+        
     }
     h2 {
-        font-size: 0.95em;
+        font-size: 0.98em;
+        
     }
     
     
@@ -208,7 +214,7 @@ h2 {
         margin-left: 21px;        
     } 
     .search {
-        width: 336px;
+        width: 330px;
         margin-top: 35px;
         margin-left: 21px;
         
@@ -218,10 +224,11 @@ h2 {
     }
     
     .search .loupe {
+        width: auto;
         display: block;
         color: white;        
         border-radius: 15px;       
-        margin: 0;
+        margin: 0;        
         padding: 0;
         margin-left: 3px;
        
@@ -234,27 +241,47 @@ h2 {
 
        
     }
-    
-
-    
-    
-
-
- 
-
-  
-
-
-/************TABLETTE************/
-@media screen and (min-width:865) and (max-width : 1366px){
-    body{        
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }      
-
-    
-   
-    
 }
+/************TABLETTE************/
+@media  screen and (min-width: 866px) and (max-width: 1266px) {
+    body {
+        width: 100%;
+        margin: auto;
+    }
+    .header {
+       width: 100%;
+       border: 1px solid green;
+    }
+    .tablette {
+        display: flex;
+        border: 1px solid red;
+        justify-content: space-between;
+    }
+    .search {
+        width: 330px;
+        height: 51px;
+        
+    }
+    .btn {
+        display: none;
+    }
+    
+    .search .loupe {
+        width: auto;
+        display: block;
+        color: white;        
+        border-radius: 15px;       
+        margin: 0;        
+        padding: 0;
+        margin-left: 3px;
+       
+    }
+    .loupe i {
+        background-color: #0065FC;
+        border-radius: 15px;
+        font-size: 1em;
+        margin-right: 0;
+
+       
+    }
 }
