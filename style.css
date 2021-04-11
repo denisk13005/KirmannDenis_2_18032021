@@ -148,7 +148,7 @@ h2 {
     border-left: transparent;
     margin-right: 24px;
     padding-right: 22px;
-    transition :  ease-in-out 0.5s;    
+       
     
 }
 .btnBox:hover {
@@ -290,6 +290,24 @@ h2 {
 
        
     }
+    .filters {
+    margin: 0;    
+    }
+    .filters p {
+        margin-left: 20px;
+    }
+    .btnFilters {
+        margin-left: 20px;
+    }
+    .btnBox {
+        margin-right: 10px;
+        margin-left: -2px;
+        margin-bottom: 16px;
+    }
+    .btnBox:hover {
+        margin-right: 10px;
+    }
+
 }
 /************TABLETTE************/
 @media  screen and (min-width: 866px) and (max-width: 1366px) {
