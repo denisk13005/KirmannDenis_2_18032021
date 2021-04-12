@@ -228,6 +228,12 @@ h2 {
     background-color: white;
     border-radius: 20px;
 }
+.vignette__container a {
+    text-decoration: none;
+}
+.vignette__container a:visited {
+    color: black;
+}
 .accomodation h2 {
     margin-top: 42px;
     margin-left: 41px;
