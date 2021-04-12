@@ -445,10 +445,12 @@ h2 {
     
     .tablette {
         display: flex;
-        justify-content: space-between;
-        margin-top: 10px
+        justify-content: space-between;        
+        align-items: center;
+
     }
     .premierParagraphe {
+        margin: 0;
         font-size: 0.75em;
         margin-left: 10px;
         padding-top: 0;
