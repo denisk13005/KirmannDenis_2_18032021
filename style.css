@@ -68,6 +68,7 @@ body {
 
 }
 .premierParagraphe{
+    margin-top: 36px;
     margin-left: 54px;
     width: auto;
     
@@ -196,9 +197,11 @@ h2 {
     
 }
 .accomodation {
+    
     width: 878px;
     height: 628px;
     margin-left: 50px;
+    margin-top: 32px;
     background-color: #f2f2f2;
     border-radius: 20px;
     position: absolute;
@@ -229,6 +232,42 @@ h2 {
     margin-top: 42px;
     margin-left: 41px;
     font-weight: bold;
+}
+.vignette {
+    height: 184px;
+    width: 234px;
+    margin : 5px ;
+    overflow: hidden;
+    
+}
+.vignette img {
+    
+    width: 234px;
+    height: 114px;
+    border-radius: 20px 20px 0px 0px;
+}
+.vignette h2 {
+    margin: 0;
+    margin-top: 12px;
+    margin-left: 16px;
+}
+.vignette p {
+    margin: 0;
+    margin-left: 16px;
+   
+}
+.stars {
+    display: flex;
+    font-size: 0.7em;
+    margin-left: 16px;
+    margin-top: 2px;
+}
+.blueStars {
+    color: #0065FC;
+}
+.greyStars {
+    margin-left: 3px;
+    color: #f2f2f2;
 }
 
 /*************************SMARTPHONE****************************/
@@ -369,9 +408,7 @@ h2 {
         
     }
     .i i {
-        position: absolute;
-        line-height: auto;
-        align-items: baseline;
+        position: absolute;          
         align-self: flex-start;
         
         
