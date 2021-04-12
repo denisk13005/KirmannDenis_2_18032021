@@ -424,6 +424,7 @@ h2 {
         margin: 0;
         padding: 0;
         justify-content: center;
+        
 
     }
     .btnBox {
@@ -433,5 +434,8 @@ h2 {
         height: 40px;
         width: 40px;
         line-height: 40px;
+    }
+    .i {
+        justify-content: center;
     }
 }
