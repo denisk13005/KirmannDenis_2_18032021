@@ -161,7 +161,7 @@
 
 }
 /************TABLETTE************/
-@media  screen and (min-width: 834px) and (max-width: 1366px) {
+@media  screen and (min-width: 834px) and (max-width: 1415px) {
     body {
         width: 100%;
         margin: auto;
@@ -252,5 +252,18 @@
     }
     .i {
         justify-content: center;
+    }
+    #middle {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .accomodation {
+        margin: 0;padding: 0;
+        max-width: none;
+        width: 90%;
+    }
+    #popular {
+        margin: 0;padding: 0;
+        width: 90%;
     }
 }
