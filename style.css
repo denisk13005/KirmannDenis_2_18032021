@@ -205,6 +205,12 @@ body {
     line-height: 22px;
     margin-right: 12px;    
 }
+#middle {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    
+}
 .accomodation {
     
     height: auto;
@@ -306,6 +312,28 @@ body {
     margin-left: 3px;
     color: #f2f2f2;
 }
+#popular {
+    min-width: 420px;
+    width: auto;
+    height: auto;    
+    min-height: 625px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin-right: 49px;
+}
+#head__popular {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular__container {
+    display: flex;
+    max-width: 342px;
+    height: 145px;
+    background-color: white;
+
+}
+
 
 
 
