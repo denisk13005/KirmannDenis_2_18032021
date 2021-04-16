@@ -1,5 +1,5 @@
 /*************************SMARTPHONE****************************/
-@media  screen and (min-width: 350px) and (max-width : 865px){    
+@media  screen and (min-width: 350px) and (max-width : 833px){    
     body{
         margin: 0;
         padding: 0;
@@ -147,8 +147,7 @@
         
     }
     .i i {
-        position: absolute;
-        
+        position: absolute;        
         align-items: baseline;
         align-self: flex-start;
         
@@ -162,7 +161,7 @@
 
 }
 /************TABLETTE************/
-@media  screen and (min-width: 866px) and (max-width: 1366px) {
+@media  screen and (min-width: 834px) and (max-width: 1366px) {
     body {
         width: 100%;
         margin: auto;
