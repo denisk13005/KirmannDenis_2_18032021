@@ -22,19 +22,19 @@ body {
     padding: 0;
 }
 
-.header {
+#header {
     width: 100%;
     margin-top: 0px;
     display: flex;
     justify-content: space-between;
 }
-.header__logo{
+#header__logo{
     width: 33%;
     margin: 0;
     padding: 0;
 }
 
-.header__logo img{
+#header__logo img{
     width: 95px;
     height: 45px;
     margin-top: 44px;
@@ -44,27 +44,27 @@ body {
     
     
 }
-#inscription a{
+#header__nav #inscription a{
    color: #0065FC;
    font-weight: bold;
 }
 
-.header__nav ul{
+#header__nav ul{
     display: flex;
     margin-right: 75px;
     margin-top: 50px;
     list-style-type: none;
     flex-wrap: wrap;
 }
-.header__nav li{
+#header__nav li{
     margin-left: 70px;
 }
-.header__nav a{
+#header__nav a{
     text-decoration: none;
     color: black;
 }                                   
 
-.header__nav a:active {
+#header__nav a:active {
     color: #0065FC;
     border-top: 3px solid #0065FC;
     padding-top: 47px;
@@ -98,10 +98,10 @@ body {
 .search i{ 
     font-size: 1.2em;              
     border-radius: 15px 0px 0px 15px;
-    width: 50px;
-    height: 50px;
+    width: 51px;
+    height: 51px;
     background-color: #f2f2f2;        
-    line-height: 50px;
+    line-height: 51px;
     text-align: center;
 }
 .search input {
@@ -245,7 +245,6 @@ body {
     margin-right: 15px;       
     background-color: white;
     border-radius: 20px;
-    
     
     
 }
