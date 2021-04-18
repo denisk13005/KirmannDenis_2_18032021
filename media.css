@@ -66,38 +66,37 @@
         border-bottom: 4px solid #0065FC;
         padding-bottom: 12px;
     }
-     .premierParagraphe{
+    #premierParagraphe{
         
         margin-top: 32px;
         margin-right: 66px;
         margin-left: 21px;        
     }     
     
-    .premierParagraphe h1 {
+    #premierParagraphe h1 {
         font-size: 1.3em;
         margin: 0;
         padding: 0;
         
     }
-    .premierParagraphe h2 {
+    #premierParagraphe h2 {
         margin-top: 12px;
         font-size: 0.98em;
         
-    }
-    
+    }    
     
    
-    .search {
+    #search {
         width: 330px;
         margin-top: 35px;
         margin-left: 21px;
         
     }
-    .btn {
+    #search .btn {
         display: none;
     }
     
-    .search .loupe {
+    #search .loupe {
         width: auto;
         display: block;
         color: white;        
@@ -107,7 +106,7 @@
         margin-left: 3px;
        
     }
-    .loupe i {
+    #search .loupe i {
         background-color: #0065FC;
         border-radius: 15px;
         font-size: 1em;
@@ -172,33 +171,28 @@
     }
     #header__nav ul{
         margin-right: 30px;
-    }
+    }  
     
-
-   
-    
-    #tablette {
+    #tablette { /*permet l'affichage souhaité en mode tablette*/
         display: flex;
         justify-content: space-between;        
         align-items: center;
 
     }
-    .premierParagraphe {
+
+    #premierParagraphe {
         margin: 0;
         font-size: 0.8em;
         margin-left: 10px;
-        padding-top: 0;
-        
-        
+        padding-top: 0;  
 
     }
-
     
     h2 {
         font-size: 1.2em;
     }
     
-    .search {
+    #search {
         margin: 0;
         width: 380px;
         height: 51px;
@@ -209,15 +203,15 @@
     .btn {
         display: none;
     }
-    .search i {
+    #search i {
         width: 51px;
         height: 51px;
     }
-    .search input {
+    #search input {
         width: 80%;
     }
     
-    .search .loupe {
+    #search .loupe {
         width: auto;
         display: block;
         color: white;        
@@ -227,7 +221,7 @@
         margin-left: 3px;
        
     }
-    .loupe i {
+    #search .loupe i {
         background-color: #0065FC;
         border-radius: 15px;
         font-size: 1em;
