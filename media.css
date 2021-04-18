@@ -251,7 +251,7 @@
         flex-wrap: wrap-reverse;
         justify-content: center;
     }
-    .accomodation {
+    #accomodation {
         margin-left: 0px;
         max-width: none;
         width: 90%;

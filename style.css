@@ -212,7 +212,7 @@ body {
     justify-content: space-between;    
     
 }
-.accomodation {
+#accomodation {
     min-height: 625px ;
     min-width: 878px;    
     margin-left: 50px;
@@ -221,11 +221,12 @@ body {
     border-radius: 20px;
   
     
-}.accomodation a {
+}
+#accomodation a {
     text-decoration: none;
     color :black
 }
-.accomodation h1 {
+#accomodation h1 {
     display: inline-block;/*pour appliquer une marge*/   
     margin-left: 36px;
     margin-top: 40px;
