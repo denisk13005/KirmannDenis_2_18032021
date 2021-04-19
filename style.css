@@ -368,6 +368,13 @@ section h2 {
     
 }
 
+#activity {
+    display: flex;
+}
+#activity img {
+    width: 100%;
+}
+
 
 
 
