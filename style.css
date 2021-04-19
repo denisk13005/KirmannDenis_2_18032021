@@ -70,24 +70,25 @@ body {
     padding-top: 47px;
 
 }
-.premierParagraphe{
+
+#premierParagraphe{
     margin-top: 35px;
     margin-left: 53px;
     width: auto;
     
     
 }
-.premierParagraphe h1 {
+#premierParagraphe h1 {
     font-size: 1.35em;
     
 }
-.premierParagraphe h2 {
+#premierParagraphe h2 {
     font-weight: normal;
     margin-top: -5px;
     font-size: 1em;
 }
 
-.search {    
+#search {    
 
     margin-top: 18px;
     display: flex;
@@ -95,7 +96,7 @@ body {
     width: 420px;
     
 }
-.search i{ 
+#search i{ 
     font-size: 1.2em;              
     border-radius: 15px 0px 0px 15px;
     width: 51px;
@@ -104,7 +105,7 @@ body {
     line-height: 51px;
     text-align: center;
 }
-.search input {
+#search input {
     padding-left: 16px;
     border: 1px solid #f2f2f2;
     font-weight: bold;
@@ -112,16 +113,16 @@ body {
     width: 230px;
     margin-right: -20px;    
 }
-.search input::placeholder {
+#search input::placeholder {
     color: black;
     font-size: 18px;
     opacity: 1;
 }
-.search input:focus {
+#search input:focus {
     border: 1px solid #f2f2f2;
     outline: none;
 }
-.search button {
+#search button {
     cursor: pointer;
     width: 134px;
     height: 51px;
@@ -132,17 +133,17 @@ body {
     background-color: #0065fc;
     font-size: 1.18em;
 }
-.loupe{    /*cache l'icone loupe*/
+#search .loupe{    /*cache l'icone loupe*/
     display: none;
 }
-.filters {
+#filters {
     display: flex;
     flex-wrap: wrap;
     font-weight: bold;
     margin-left: 63px;
     margin-top: 30px;
 }
-.filters p {
+#filters p {
     margin-right: 37px;
 }
 .btnFilters {
@@ -211,7 +212,7 @@ body {
     justify-content: space-between;    
     
 }
-.accomodation {
+#accomodation {
     min-height: 625px ;
     min-width: 878px;    
     margin-left: 50px;
@@ -220,11 +221,12 @@ body {
     border-radius: 20px;
   
     
-}.accomodation a {
+}
+#accomodation a {
     text-decoration: none;
     color :black
 }
-.accomodation h1 {
+#accomodation h1 {
     display: inline-block;/*pour appliquer une marge*/   
     margin-left: 36px;
     margin-top: 40px;
@@ -252,7 +254,7 @@ body {
 .vignette__container a:visited {
     color: black;
 }
-.accomodation h2 {
+section h2 {
     display: inline-block;
     font-size: 18px;
     margin-top: 10px;

@@ -66,38 +66,37 @@
         border-bottom: 4px solid #0065FC;
         padding-bottom: 12px;
     }
-     .premierParagraphe{
+    #premierParagraphe{
         
         margin-top: 32px;
         margin-right: 66px;
         margin-left: 21px;        
     }     
     
-    .premierParagraphe h1 {
+    #premierParagraphe h1 {
         font-size: 1.3em;
         margin: 0;
         padding: 0;
         
     }
-    .premierParagraphe h2 {
+    #premierParagraphe h2 {
         margin-top: 12px;
         font-size: 0.98em;
         
-    }
-    
+    }    
     
    
-    .search {
+    #search {
         width: 330px;
         margin-top: 35px;
         margin-left: 21px;
         
     }
-    .btn {
+    #search .btn {
         display: none;
     }
     
-    .search .loupe {
+    #search .loupe {
         width: auto;
         display: block;
         color: white;        
@@ -107,7 +106,7 @@
         margin-left: 3px;
        
     }
-    .loupe i {
+    #search .loupe i {
         background-color: #0065FC;
         border-radius: 15px;
         font-size: 1em;
@@ -115,13 +114,13 @@
 
        
     }
-    .filters {
+    #filters {
     margin-top: 18px;  
     margin-left: 2px;
     font-size: 1.1em;
     margin-bottom: 22px;
     }
-    .filters p {
+    #filters p {
         margin-left: 20px;
     }
     .btnFilters {
@@ -161,48 +160,56 @@
         flex-wrap: wrap-reverse;
         justify-content: center;
     }
-    .accomodation {
-        margin: 0;
-        min-width: 0;
+    #accomodation {
+        margin: 0; 
+        min-width: 0;      
         width: 100%;
         background-color: white;
     }
+    #accomodation h1 {
+        margin-left: 20px;
+    }
     .accomodation__container {
         width: 100%;
-        margin: auto;
-        
     }
     .vignette__container {
-       
         width: 100%;
+        margin-bottom: 10px;
         overflow: hidden;
         position: relative;
         box-shadow: 1px 3px 15px #f5f5f2    ;
         
     }
-    .vignette {
-        width: 100%;
+    .vignette {               
+        width: auto;
+           
+        
     }
+    .vignette img {
+        margin: 0px;
+        width: 120%;
+    }  
+    section h2 {
+        margin-left: 20px;  
+        margin-top: px;
+    } 
     #popular {
+        min-width: 0;
+        width: 100%;
+        min-height: 0;
+        height: 578px ;
         margin: 0;
-        margin-top: 20px;        
-        min-width: 100%;
-        border-radius: 0;
-        height: 582px;
-        
-        
-    }
-    #popular h1 {
+        margin-top: 20px;   
+        border-radius: 0;     
+
+    } 
+    #head__popular h1 {
         margin-left: 20px;
     }
     .popular__container {
         margin-bottom: 5px;
-        box-shadow: 3px 3px 10px #d9d9d9;
-        
-        
-        
     }
-  
+    
     
 
 }
@@ -218,33 +225,28 @@
     }
     #header__nav ul{
         margin-right: 30px;
-    }
+    }  
     
-
-   
-    
-    #tablette {
+    #tablette { /*permet l'affichage souhaité en mode tablette*/
         display: flex;
         justify-content: space-between;        
         align-items: center;
 
     }
-    .premierParagraphe {
+
+    #premierParagraphe {
         margin: 0;
         font-size: 0.8em;
         margin-left: 10px;
-        padding-top: 0;
-        
-        
+        padding-top: 0;  
 
     }
-
     
     h2 {
         font-size: 1.2em;
     }
     
-    .search {
+    #search {
         margin: 0;
         width: 380px;
         height: 51px;
@@ -255,15 +257,15 @@
     .btn {
         display: none;
     }
-    .search i {
+    #search i {
         width: 51px;
         height: 51px;
     }
-    .search input {
+    #search input {
         width: 80%;
     }
     
-    .search .loupe {
+    #search .loupe {
         width: auto;
         display: block;
         color: white;        
@@ -273,7 +275,7 @@
         margin-left: 3px;
        
     }
-    .loupe i {
+    #search .loupe i {
         background-color: #0065FC;
         border-radius: 15px;
         font-size: 1em;
@@ -281,7 +283,7 @@
 
        
     }
-    .filters {
+    #filters {
         margin-top: 10px;        
         padding: 0;
         justify-content: center;
@@ -303,30 +305,45 @@
         flex-wrap: wrap-reverse;
         justify-content: center;
     }
-    .accomodation {
-        margin-left: 0px;
-        max-width: none;
-        width: 90%;
+
+    #accomodation {
+        margin-left: 0px;        
+        min-width: 0;
+        width: 100%;
         background-color: white;
+        margin: 0;
+
     }
+
+    #accomodation h1 {
+        margin: 10px;
+        margin-left: 55px;
+
+        
+    }
+
     .accomodation__container {
         width: 100%;
+        margin: 0;
     }
     .vignette__container {
-        width: 33%;
+        width: 40%;
+        margin: 10px;        
         overflow: hidden;
         position: relative;
-        box-shadow: 1px 3px 15px #f5f5f2    ;
+        box-shadow: 1px 3px 15px #f5f5f2;
         
     }
     .vignette {               
-        width: auto;
-           
+        width: auto;         
         
     }
     .vignette img {
         margin: 0px;
     }    
+    section h2 {
+        margin-left: 70px;
+    }
 
 
 
@@ -334,6 +351,7 @@
         margin: 0;
         padding: 0;
         width: 90%;
+       
     }
     #head__popular {
         width: 80%;
