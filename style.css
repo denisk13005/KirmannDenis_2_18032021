@@ -301,11 +301,9 @@ section h2 {
     margin-left: 15px;
     margin-top: 6px;    
 }
-.stars i {
-    margin-right: -2px;
-}
 .blueStars {
     color: #0065FC;
+    margin-right: 1px;
     
 }
 
@@ -352,14 +350,17 @@ section h2 {
     border-radius: 20px;
     margin-top: 5px;
 }
-.popular__container img{
+.image__container {
     width: 130px;
     height: 135px;
+    overflow: hidden;
+    border-radius: 15px 0px 0px 15px;
     margin: 5px;
-    
-    object-fit:cover;
-    object-position: bottom ;
-    border-radius: 20px 0px 0px 20px;
+}
+.popular__container img{
+    width: 130px;
+    height: 140px;        
+    object-fit:cover;    
 }
 
 .popular__description {
@@ -367,7 +368,7 @@ section h2 {
 }
 .popular__description h2 {
     font-size: 15px;
-    margin-top: 16px;
+    margin-top: 20px;
     margin-bottom: 0;
 }
 .popular__description p {
