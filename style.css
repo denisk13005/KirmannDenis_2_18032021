@@ -226,8 +226,7 @@ body {
     text-decoration: none;
     color :black
 }
-#accomodation h1 {
-    display: inline-block;/*pour appliquer une marge*/   
+#accomodation h1 {   
     margin-left: 36px;
     margin-top: 40px;
     font-size: 22px;
