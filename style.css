@@ -243,10 +243,10 @@ body {
 
 }
 .vignette__container {
-    margin-top: 2px;
-    margin-left: 15px;
-    margin-bottom: 30px;
-    margin-right: 15px;  
+    margin-top: 5px;
+    margin-left: 13px;
+    margin-bottom: 24px;
+    margin-right: 18px;  
     height: 200px;     
     background-color: white;
     border-radius: 20px;
@@ -262,17 +262,17 @@ body {
 section h2 {
     display: inline-block;
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 17px;
     margin-bottom: 45px;
-    margin-left: 41px;
+    margin-left: 43px;
     font-weight: bold;
 }
 .vignette {
-    height: 112px;
+    height: 116px;
     width: 236px;
     overflow: hidden;    
     margin : 5px ;
-    border-radius: 20px 20px 0px 0px ;
+    border-radius: 15px 15px 0px 0px ;
     
 }
 .vignette img {  
@@ -283,14 +283,14 @@ section h2 {
 }
 .vignette__container h2 {
     margin: 0;
-    font-size: 16px;   
+    font-size: 15px;   
     margin-top: 4px; 
-    margin-left: 14px;
+    margin-left: 18px;
 }
 .vignette__container p {
     margin: 0;
     font-size: 14px;
-    margin-top: 4px;
+    margin-top: 6px;
     margin-left: 14px;
     
    
@@ -298,13 +298,17 @@ section h2 {
 .stars {
     display: flex;
     font-size: 0.7em;
-    margin-left: 14px;
-    margin-top: 6px;
-    
+    margin-left: 15px;
+    margin-top: 6px;    
+}
+.stars i {
+    margin-right: -2px;
 }
 .blueStars {
     color: #0065FC;
+    
 }
+
 .greyStars {
     margin-left: 3px;
     color: #f2f2f2;
