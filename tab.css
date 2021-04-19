@@ -1,0 +1,141 @@
+/************TABLETTE************/
+@media  screen and (min-width: 834px) and (max-width: 1415px) {
+    body {
+        width: 100%;
+        margin: auto;
+    }
+    #header__logo img {
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+    #header__nav ul{
+        margin-right: 30px;
+    }  
+    
+    #tablette { /*permet l'affichage souhaité en mode tablette*/
+        display: flex;
+        justify-content: space-between;        
+        align-items: center;
+
+    }
+
+    #premierParagraphe {
+        margin: 0;
+        font-size: 0.8em;
+        margin-left: 10px;
+        padding-top: 0;  
+
+    }
+    
+    h2 {
+        font-size: 1.2em;
+    }
+    
+    #search {
+        margin: 0;
+        width: 380px;
+        height: 51px;
+        margin-right: 30px;
+        margin-top: 0px;
+        
+    }
+    .btn {
+        display: none;
+    }
+    #search i {
+        width: 51px;
+        height: 51px;
+    }
+    #search input {
+        width: 80%;
+    }
+    
+    #search .loupe {
+        width: auto;
+        display: block;
+        color: white;        
+        border-radius: 15px;       
+        margin: 0;        
+        padding: 0;
+        margin-left: 3px;
+       
+    }
+    #search .loupe i {
+        background-color: #0065FC;
+        border-radius: 15px;
+        font-size: 1em;
+        margin-right: 0;
+
+       
+    }
+    #filters {
+        margin-top: 10px;        
+        padding: 0;
+        justify-content: center;
+        
+
+    }
+    .btnBox {
+        height: 38px;
+    }
+    .btnBox i{
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+    .i {
+        justify-content: center;
+    }
+    #middle {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+    #accomodation {
+        margin-left: 0px;        
+        min-width: 0;
+        width: 100%;
+        background-color: white;
+        margin: 0;
+
+    }
+
+    #accomodation h1 {        
+        margin: 10px;
+        margin-left: 55px;
+
+        
+    }
+
+    .accomodation__container {
+        width: 100%;
+        margin: 0;
+    }
+    .vignette__container {
+        width: 40%;
+        margin: 10px;        
+        overflow: hidden;       
+    }
+    .vignette {               
+        width: auto;         
+        
+    }
+    .vignette img {
+        margin: 0px;
+    }    
+    section h2 {
+        margin-left: 55px;
+    }
+    #popular {
+        margin: 0;
+        padding: 0;
+        width: 90%;
+       
+    }
+    #head__popular {
+        width: 80%;
+    }
+    .popular__container {
+        width: 70%;        
+    }
+}
