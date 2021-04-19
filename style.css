@@ -136,14 +136,14 @@ body {
 #search .loupe{    /*cache l'icone loupe*/
     display: none;
 }
-.filters {
+#filters {
     display: flex;
     flex-wrap: wrap;
     font-weight: bold;
     margin-left: 63px;
     margin-top: 30px;
 }
-.filters p {
+#filters p {
     margin-right: 37px;
 }
 .btnFilters {
@@ -255,7 +255,7 @@ body {
 .vignette__container a:visited {
     color: black;
 }
-.accomodation h2 {
+section h2 {
     display: inline-block;
     font-size: 18px;
     margin-top: 10px;
