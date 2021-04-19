@@ -368,8 +368,74 @@ section h2 {
     
 }
 
+#activity__h1 {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+#activity h2 {
+    font-size: 16px;
+    margin-left: 22px;
+    margin-top: 18px;
+}
 #activity {
     display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-right: 30px;
+    margin-top: 6px;
+    justify-content: space-around;
+}
+.activity__box {
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 1px 3px 15px #f5f5f2;
+}
+.activity__big {
+    
+    width: 304px;
+    height: 447px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 1px 3px 15px #f5f5f2;
+}
+.activity__big img {
+    height: 390px;
+}
+.activity__small {
+    width: 304px;
+    height: 447px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+    
+}
+#pomegues {
+    height: 238px;
+}
+#pomegues img {
+    height: 180px;
+}
+#frioul {
+    height: 165px;
+    margin-left: 3px;
+    
+}
+#frioul img {
+    height: 108px;
+}
+#NDDLG {
+    height: 195px;
+}
+#NDDLG img{
+    height: 140px;
+}
+#longchamp {
+    height: 209px;
+}
+#longchamp img {
+    height: 153px;
 }
 #activity img {
     width: 100%;
