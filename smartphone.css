@@ -265,6 +265,27 @@
     .activity__box--longchamp img {
         height: 133px;
     }
+    footer {
+        flex-direction: column;
+        margin: 0;
+        height: 100%;
+    }
+    .block--about {
+        margin: 0;
+        margin-top: 25px;
+        margin-left: 27px;
+        margin-bottom: 0;
+    }
+    .block--accomodations {
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 32px;
+    }
+    .block--help {
+        margin: 0;
+        margin-top: 25px;
+        margin-left: 32px;
+    }
     
 
 }
