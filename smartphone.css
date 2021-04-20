@@ -240,29 +240,29 @@
     .activity__small img {
         height: 133px;
     }
-    #pomegues {
+    .activity__box--pomegues {
         height: 190px;
     }
-    #pomegues img {
+    .activity__box--pomegues img {
         height: 133px;
     }
-    #frioul {
+    .activity__box--frioul {
         margin: 0;
         height: 190px;       
     }
-    #frioul img {
+    .activity__box--frioul img {
         height: 133px;
     }
-    #NDDLG {
+    .activity__box--NDDLG {
     height: 190px;
     }
-    #NDDLG img {
+    .activity__box--NDDLG img {
         height: 133px;
     }
-    #longchamp {
+    .activity__box--longchamp {
         height: 190px;
     }
-    #longchamp img {
+    .activity__box--longchamp img {
         height: 133px;
     }
     
