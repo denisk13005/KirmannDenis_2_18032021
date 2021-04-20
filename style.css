@@ -13,12 +13,14 @@
 }
 
 /**********FIN404***************/
-body {
+body, html {
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
     width: 100%;
+    height: 100%;
     margin: auto;
     margin-top: 0;
+    margin-bottom: 0;
     padding: 0;
 }
 
@@ -452,9 +454,37 @@ section h2 {
 #activity img {
     width: 100%;
 }
-
-
-
-
-
-
+footer {
+    display: flex;         
+    width: 100%;
+    height: 222px;
+    margin-top: 60px;
+    background-color: #f2f2f2;
+}
+.block {
+    margin-left: 50px;
+    margin-top: 32px;
+    align-items: center;
+    
+    
+}
+.block--accomodations {    
+    margin-left: 228px;
+}
+.block--help {
+    margin-left: 294px;
+}
+.block h2{
+    font-size: 1.08em;
+}
+.block p {
+    margin-top: 8px;
+}
+.block p:nth-child(2) {
+    margin-top: 20px;
+    margin-bottom: 12px;
+       
+}
+.block p:nth-child(3) {
+    margin-bottom: 13px;
+}
