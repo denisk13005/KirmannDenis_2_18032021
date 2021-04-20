@@ -161,7 +161,8 @@
         justify-content: center;
     }
     #accomodation {
-        margin: 0; 
+        margin: 0;        
+        
         min-width: 0;      
         width: 100%;
         background-color: white;
@@ -169,11 +170,13 @@
     #accomodation h1 {
         margin-left: 20px;
     }
-    .accomodation__container {
+    .accomodation__container {        
         width: 100%;
+        align-items: center;
     }
     .vignette__container {
-        width: 100%;
+        width: 70%;
+        min-width: 334px;                
         margin-bottom: 10px;
         overflow: hidden;          
         
