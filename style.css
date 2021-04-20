@@ -423,30 +423,30 @@ section h2 {
     justify-content: space-between
     
 }
-#pomegues {
+.activity__box--pomegues {
     height: 238px;
 }
-#pomegues img {
+.activity__box--pomegues img {
     height: 180px;
 }
-#frioul {
+.activity__box--frioul {
     height: 165px;
     margin-left: 3px;
     
 }
-#frioul img {
+.activity__box--frioul img {
     height: 108px;
 }
-#NDDLG {
+.activity__box--NDDLG {
     height: 195px;
 }
-#NDDLG img{
+.activity__box--NDDLG img{
     height: 140px;
 }
-#longchamp {
+.activity__box--longchamp {
     height: 209px;
 }
-#longchamp img {
+.activity__box--longchamp img {
     height: 153px;
 }
 #activity img {
