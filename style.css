@@ -187,7 +187,7 @@ body {
     margin-left: -2px;
     
 }
-.i {
+.info {
     margin-top: 22px;
     margin-left: 58px;
     display: flex;
@@ -195,7 +195,7 @@ body {
     
      
 }
-.i i{
+.info i{
     width: 24px;
     height: 24px;    
     color :#0065fc;

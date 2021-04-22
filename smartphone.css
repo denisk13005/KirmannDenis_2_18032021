@@ -139,21 +139,19 @@
         margin-right: 8px;
 
     }
-    .i {
+    .info {
         margin: 0;
         padding: 0;
-        margin-left: 20px;
+        margin-left: 18px;
         
     }
-    .i i {
-        position: absolute;        
-        align-items: baseline;
+    .info div {       
         align-self: flex-start;
-        
+        margin-top: 1px;       
         
     }
-    .i p {
-        margin-left: 36px;
+    .info p {
+        margin-left: 0px;
         margin-top: 4px;
     }
     #middle {
