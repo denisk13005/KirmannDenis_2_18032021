@@ -115,7 +115,7 @@ body {
     font-weight: bold;
     font-size: 1.05em;
     width: 230px;
-    margin-right: -20px;    
+       
 }
 #search input::placeholder {
     color: black;
@@ -128,9 +128,8 @@ body {
 }
 #search button {
     cursor: pointer;
-    width: 134px;
-    height: 51px;
-    margin-left: 6px;
+    width: 140px;
+    height: 51px;    
     border: none;
     border-radius: 0px 15px 15px 0px;
     color: white;
