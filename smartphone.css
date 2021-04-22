@@ -165,7 +165,7 @@
         width: 100%;
         background-color: white;
     }
-    #accomodation h1 {
+    #accomodation__title {
         margin-left: 20px;
     }
     .accomodation__container {        

@@ -226,10 +226,12 @@ body {
     text-decoration: none;
     color :black
 }
-#accomodation h1 {   
+#accomodation__title{   
     margin-left: 36px;
     margin-top: 40px;
     font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
 
     
 }
