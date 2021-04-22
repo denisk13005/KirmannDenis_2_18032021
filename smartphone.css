@@ -89,21 +89,26 @@
     #search {
         width: 330px;
         margin-top: 35px;
-        margin-left: 21px;
+        margin-left: 25px;
         
     }
+   
     #search .btn {
         display: none;
     }
+   
     
     #search .loupe {
         width: auto;
+        position: relative; /*permet de décaler la loupe vers la gauche*/  
+        right: 10px;     
         display: block;
         color: white;        
-        border-radius: 15px;       
-        margin: 0;        
-        padding: 0;
-        margin-left: 3px;
+        border-radius: 15px;             
+        margin: 0;
+        padding: 0;        
+        
+        
        
     }
     #search .loupe i {

@@ -53,6 +53,8 @@
     #search .loupe {
         width: auto;
         display: block;
+        position: relative;
+        right: 10px;
         color: white;        
         border-radius: 15px;       
         margin: 0;        
