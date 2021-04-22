@@ -327,11 +327,13 @@ section h2 {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    
 }
-#head__popular h1 {
+#popular__title {
     margin-top :40px;
     margin-left: 34px;
     font-size: 22px;
+    font-weight: bold;
 }
 #head__popular i {
     margin-top: 41px;

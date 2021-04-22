@@ -203,8 +203,15 @@
         border-radius: 0;     
 
     } 
-    #head__popular h1 {
+    #head__popular {
+        margin-bottom: 18px;
+    }
+    #popular__title {
         margin-left: 20px;
+    }
+    #head__popular i {
+        margin-right: 17px;
+
     }
     .popular__container {
         margin-bottom: 5px;
