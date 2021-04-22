@@ -75,8 +75,13 @@
         
 
     }
+    .btnFilters {        
+        justify-content: center;
+    }
     .btnBox {
         height: 38px;
+        margin-bottom: 10px;
+        
     }
     .btnBox i{
         height: 40px;
