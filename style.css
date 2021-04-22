@@ -13,6 +13,10 @@
 }
 
 /**********FIN404***************/
+a {
+    text-decoration: none;
+    color: black;
+}
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
@@ -256,9 +260,7 @@ body {
     
 }
 
-.vignette__container a:visited {
-    color: black;
-}
+
 section h2 {
     display: inline-block;
     font-size: 18px;
@@ -307,8 +309,7 @@ section h2 {
     
 }
 
-.greyStars {
-    margin-left: 3px;
+.greyStars {    
     color: #f2f2f2;
 }
 #popular {
@@ -327,6 +328,7 @@ section h2 {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 15px;
     
 }
 #popular__title {
@@ -341,8 +343,9 @@ section h2 {
     font-size: 23px;
 }
 
+
 .popular__container {
-    display: flex;
+    display: flex;    
     width: 342px;
     max-width: 90%;
     height: 145px;
@@ -369,6 +372,7 @@ section h2 {
 .popular__description {
     margin-left: 10px;
 }
+
 .popular__description h2 {
     font-size: 15px;
     margin-top: 20px;
