@@ -154,11 +154,16 @@ body {
     border-radius: 25px;
     border-left: transparent;
     margin-right: 22px;
-    padding-right: 22px;
-    font-size: 18px;
-       
-    
+    padding-right: 18px;    
+    font-size: 18px;   
 }
+#filters  .btnBox p{
+   display: inline-block;       
+   margin: 0;
+   position: relative;
+   bottom: 3px;   
+}
+
 .btnBox:hover {
     font-style: oblique;
     background-color: #DEEBFF;
@@ -173,7 +178,7 @@ body {
     height: 50px;
     font-size: 19px;
     text-align: center;
-    line-height: 51px;
+    line-height: 50px;
     color: #0065fc;
     background-color: #DEEBFF ;
     border-radius: 50%;    
