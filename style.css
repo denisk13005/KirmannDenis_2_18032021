@@ -305,7 +305,7 @@ section h2 {
 }
 #popular {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;     
     align-items: center;  
     min-width: 420px;      
     height: 625px;
@@ -314,6 +314,9 @@ section h2 {
     margin-right: 49px;
     margin-left: 35px;
     
+}
+#popular a {    
+    width: 100%;
 }
 #head__popular {
     display: flex;
@@ -336,7 +339,8 @@ section h2 {
 
 
 .popular__container {
-    display: flex;    
+    margin: auto;
+    display: flex;       
     width: 342px;
     max-width: 90%;
     height: 145px;
