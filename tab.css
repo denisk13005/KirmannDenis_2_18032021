@@ -128,11 +128,14 @@
         margin-left: 14px;
     }
     .vignette {               
-        width: auto;         
+         width: auto;
+        
+        overflow: hidden;     
         
     }
     .vignette img {
         margin: 0px;
+        width: 100%;
     }    
     section h2 {
         margin-left: 55px;
