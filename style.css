@@ -47,7 +47,8 @@ body {
     margin-left: 54px;    
 }
 
-#header__nav #inscription a{
+
+#inscription a{
    color: #0065FC;
    font-weight: bold;
 }
@@ -60,7 +61,7 @@ body {
     flex-wrap: wrap;
 }
 #header__nav li{
-    margin-left: 70px;
+    margin-left: 70px;    
 }
 
 #header__nav a:active {
