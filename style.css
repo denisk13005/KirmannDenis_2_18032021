@@ -384,17 +384,6 @@ section h2 {
     
 }
 
-#activity__h1 {
-    display: inline-block;
-    font-size: 22px;
-    margin-top: 60px;
-    margin-left: 50px;
-}
-#activity h2 {
-    font-size: 16px;
-    margin-left: 22px;
-    margin-top: 18px;
-}
 #activity {
     display: flex;
     flex-wrap: wrap;
@@ -403,22 +392,27 @@ section h2 {
     margin-top: 6px;
     justify-content: space-around;
 }
-.activity__box {
-    overflow: hidden;
-    border-radius: 20px;
-    box-shadow: 1px 3px 15px #c0c0c0;
+
+#activity__h1 {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 60px;
+    margin-left: 50px;
 }
-.activity__big {
-    
+.activity__big {    
     width: 304px;
     height: 447px;
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 1px 3px 15px #c0c0c0;
 }
-.activity__big img {
-    height: 390px;
+
+#activity h2 {
+    font-size: 16px;
+    margin-left: 22px;
+    margin-top: 18px;
 }
+
 .activity__small {
     width: 304px;
     height: 447px;
@@ -427,32 +421,62 @@ section h2 {
     justify-content: space-between
     
 }
+
+.activity__box {
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 1px 3px 15px #c0c0c0;
+}
+#box__img--vieuxPort {
+    height: 390px;
+}
+
 .activity__box--pomegues {
     height: 238px;
 }
-.activity__box--pomegues img {
-    height: 180px;
+#box__img--pomegues {
+    height: 188px;
+    overflow: hidden;
+}
+.activity__img--container {
+    overflow: hidden;
+}
+
+.activity__img--container img {   
+    height: 130%;
+    object-fit: cover;
+    object-position: center;
+   
+ 
 }
 .activity__box--frioul {
     height: 165px;
     margin-left: 3px;
     
 }
-.activity__box--frioul img {
-    height: 108px;
+#box__img--frioul {
+    height: 110px;
+    overflow: hidden;
 }
+#box__img--parc {
+    height: 390px;
+}
+
+
 .activity__box--NDDLG {
     height: 195px;
 }
-.activity__box--NDDLG img{
-    height: 140px;
+#box__img--NDLG {
+    height: 145px;
 }
+
 .activity__box--longchamp {
     height: 209px;
 }
-.activity__box--longchamp img {
-    height: 153px;
+#box__img--longchamp {
+    height: 149px;
 }
+
 #activity img {
     width: 100%;
 }

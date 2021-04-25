@@ -194,7 +194,7 @@
     }
     .vignette img {
         margin: 0px;
-        width: 120%;
+        width: 100%;
     }  
     section h2 {
         margin-left: 20px;  
@@ -238,9 +238,7 @@
         height: 190px;
         margin-bottom: 22px;
     }
-    .activity__big img {
-        height: 133px;
-    }
+    
     .activity__small {
         width: 90%;
         justify-content: flex-start;
@@ -250,37 +248,15 @@
     }
     .activity__box {
         width: 100%; 
+        height: 190px;
         margin-bottom: 20px;      
         overflow: hidden;
-    }
-    .activity__small img {
+    }  
+    .activity__img--container {
         height: 133px;
-    }
-    .activity__box--pomegues {
-        height: 190px;
-    }
-    .activity__box--pomegues img {
-        height: 133px;
-    }
-    .activity__box--frioul {
-        margin: 0;
-        height: 190px;       
-    }
-    .activity__box--frioul img {
-        height: 133px;
-    }
-    .activity__box--NDDLG {
-    height: 190px;
-    }
-    .activity__box--NDDLG img {
-        height: 133px;
-    }
-    .activity__box--longchamp {
-        height: 190px;
-    }
-    .activity__box--longchamp img {
-        height: 133px;
-    }
+        overflow: hidden;
+    }  
+    
     footer {
         flex-direction: column;        
         margin: 0;        
