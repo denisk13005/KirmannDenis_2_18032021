@@ -165,13 +165,7 @@
     .activity__big, .activity__small {
         width: 33%;
     }
-    .activity__box {
-        height: 190px;
-        width: auto;
-    }
-    .activity__box img {
-        height: 133px;
-    }
+   
     footer {
         justify-content: space-around;
     }   
