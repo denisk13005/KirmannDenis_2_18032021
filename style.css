@@ -17,11 +17,14 @@ a {
     text-decoration: none;
     color: black;
 }
-
+main {
+    max-width: 1640px;
+    margin: auto;
+}
 body {
     font-family: 'Raleway', sans-serif;
     font-size: 1em;
-    width: 100%;   
+    width: 100%;    
     margin: auto;
     margin-top: 0;    
     padding: 0;
@@ -384,17 +387,6 @@ section h2 {
     
 }
 
-#activity__h1 {
-    display: inline-block;
-    font-size: 22px;
-    margin-top: 60px;
-    margin-left: 50px;
-}
-#activity h2 {
-    font-size: 16px;
-    margin-left: 22px;
-    margin-top: 18px;
-}
 #activity {
     display: flex;
     flex-wrap: wrap;
@@ -403,22 +395,27 @@ section h2 {
     margin-top: 6px;
     justify-content: space-around;
 }
-.activity__box {
-    overflow: hidden;
-    border-radius: 20px;
-    box-shadow: 1px 3px 15px #c0c0c0;
+
+#activity__h1 {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 60px;
+    margin-left: 50px;
 }
-.activity__big {
-    
+.activity__big {    
     width: 304px;
     height: 447px;
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 1px 3px 15px #c0c0c0;
 }
-.activity__big img {
-    height: 390px;
+
+#activity h2 {
+    font-size: 16px;
+    margin-left: 22px;
+    margin-top: 23px;
 }
+
 .activity__small {
     width: 304px;
     height: 447px;
@@ -427,38 +424,69 @@ section h2 {
     justify-content: space-between
     
 }
-.activity__box--pomegues {
-    height: 238px;
+
+.activity__box {
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 1px 3px 15px #c0c0c0;
 }
-.activity__box--pomegues img {
+#box__img--vieuxPort {
+    height: 390px;
+}
+
+
+.activity__box--pomegues {
+    height: 240px;
+}
+#box__img--pomegues {
     height: 180px;
+    overflow: hidden;
+}
+.activity__img--container {
+    overflow: hidden;
+}
+
+.activity__img--container img {   
+    height: 130%;
+    object-fit: cover;
+    object-position: center;
+   
+ 
 }
 .activity__box--frioul {
     height: 165px;
     margin-left: 3px;
     
 }
-.activity__box--frioul img {
-    height: 108px;
+#box__img--frioul {
+    height: 110px;
+    overflow: hidden;
 }
+#box__img--parc {
+    height: 390px;
+}
+
+
 .activity__box--NDDLG {
     height: 195px;
 }
-.activity__box--NDDLG img{
+#box__img--NDLG {
     height: 140px;
 }
+
 .activity__box--longchamp {
-    height: 209px;
+    height: 210px;
 }
-.activity__box--longchamp img {
-    height: 153px;
+#box__img--longchamp {
+    height: 152px;
 }
+
 #activity img {
     width: 100%;
 }
 footer {
     display: flex;         
-    width: 100%;
+    width: 100%;    
     height: auto;
     margin-top: 60px;
     background-color: #f2f2f2;
