@@ -17,15 +17,15 @@ a {
     text-decoration: none;
     color: black;
 }
+
 main {
     max-width: 1640px;
     margin: auto;
 }
 body {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1em;
+    font-family: 'Raleway', sans-serif;/*appel de la police raleway*/
     width: 100%;    
-    margin: auto;
+    margin: auto;/*centre le body*/
     margin-top: 0;    
     padding: 0;
 }
@@ -71,34 +71,30 @@ body {
     color: #0065FC;
     border-top: 3px solid #0065FC;
     padding-top: 47px;
-
 }
 
 #premierParagraphe{
     margin-top: 35px;
-    margin-left: 53px;
-    width: auto;
-    
-    
+    margin-left: 53px;    
 }
+
 #premierParagraphe h1 {
-    font-size: 1.35em;
-    
+    font-size: 1.35em;    
 }
+
 #premierParagraphe h2 {
     font-weight: normal;
     margin-top: -5px;
     font-size: 1em;
 }
 
-#search {    
-
+#search {  
     margin-top: 18px;
     display: flex;
     margin-left: 55px;
-    width: 420px;
-    
+    width: 420px;    
 }
+
 #search i{ 
     font-size: 1.2em;              
     border-radius: 15px 0px 0px 15px;
@@ -108,6 +104,7 @@ body {
     line-height: 51px;
     text-align: center;
 }
+
 #search input {
     padding-left: 16px;
     border: 1px solid #f2f2f2;
@@ -116,15 +113,18 @@ body {
     width: 230px;
        
 }
+
 #search input::placeholder {
     color: black;
     font-size: 18px;
     opacity: 1;
 }
+
 #search input:focus {
     border: 1px solid #f2f2f2;
     outline: none;
 }
+
 #search button {
     cursor: pointer;
     width: 140px;
@@ -135,9 +135,11 @@ body {
     background-color: #0065fc;
     font-size: 1.18em;
 }
-#search .loupe{    /*cache l'icone loupe*/
+
+#search .loupe{    /*cache l'icone loupe en mode desktop*/
     display: none;
 }
+
 #filters {
     display: flex;
     flex-wrap: wrap;
@@ -145,6 +147,7 @@ body {
     margin-left: 63px;
     margin-top: 30px;
 }
+
 #filters p {
     margin-right: 37px;
 }
@@ -156,10 +159,11 @@ body {
     height: 46px;
     border: 2px solid #d9d9d9;
     border-radius: 25px;
-    border-left: transparent;
+    border-left: transparent;/*cache la bordure gauche de la div btnBox*/
     margin-right: 22px;
     padding-right: 18px;    
     font-size: 18px;   
+    cursor: pointer;
 }
 #filters  .btnBox p{
    display: inline-block;       
@@ -174,9 +178,9 @@ body {
     border: 2px solid #DEEBFF;
     margin-right: 22px;
     color: #0065fc;
-    margin-right: 20px;  
-    
+    margin-right: 20px;      
 }
+
 .btnBox i{   
     width: 50px;
     height: 50px;
@@ -188,18 +192,16 @@ body {
     border-radius: 50%;    
     margin-right: 13px;
     position: relative;
-    bottom: 2px;
-    
-    
+    bottom: 2px;    
 }
+
 .info {
     margin-top: 22px;
     margin-left: 58px;
     display: flex;
-    align-items: center;
-    
-     
+    align-items: center;     
 }
+
 .info i{
     width: 24px;
     height: 24px;    
@@ -211,21 +213,21 @@ body {
     line-height: 22px;
     margin-right: 12px;    
 }
+
 #middle {
     display: flex; 
     align-items: flex-end;
     justify-content: space-between;    
     
 }
+
 #accomodation {
     min-height: 625px ;
     min-width: 878px;    
     margin-left: 50px;
     margin-top: 22px;
     background-color: #f2f2f2;
-    border-radius: 20px;
-  
-    
+    border-radius: 20px;    
 }
 
 #accomodation__title{   
@@ -233,16 +235,15 @@ body {
     margin-top: 40px;
     font-size: 22px;
     font-weight: bold;
-    margin-bottom: 20px;
-
-    
+    margin-bottom: 20px;  
 }
+
 .accomodation__container {
     display: flex;    
     flex-wrap: wrap;    
     justify-content: center;   
-
 }
+
 .vignette__container {
     margin-top: 5px;
     margin-left: 13px;
@@ -251,10 +252,8 @@ body {
     height: 200px;     
     background-color: white;
     border-radius: 20px;
-    box-shadow:1px 3px 15px #c0c0c0;   
-    
+    box-shadow:1px 3px 15px #c0c0c0;     
 }
-
 
 section h2 {
     display: inline-block;
@@ -264,49 +263,51 @@ section h2 {
     margin-left: 43px;
     font-weight: bold;
 }
+
 .vignette {
     height: 116px;
     width: 236px;    
     overflow: hidden;    
     margin : 5px ;
-    border-radius: 15px 15px 0px 0px ;
-    
+    border-radius: 15px 15px 0px 0px ;    
 }
+
 .vignette img {    
     width: 236px;   
     height: 110%;
-    object-fit: cover;
-    
+    object-fit: cover;    
 }
+
 .vignette__container h2 {
     margin: 0;
     font-size: 15px;   
     margin-top: 4px; 
     margin-left: 14px;
 }
+
 .vignette__container p {
     margin: 0;
     font-size: 14px;
     margin-top: 6px;
-    margin-left: 14px;
-    
-   
+    margin-left: 14px;   
 }
+
 .stars {
     display: flex;
     font-size: 0.7em;
     margin-left: 15px;
     margin-top: 6px;    
 }
+
 .blueStars {
     color: #0065FC;
-    margin-right: 1px;
-    
+    margin-right: 1px;    
 }
 
 .greyStars {    
     color: #f2f2f2;
 }
+
 #popular {
     display: flex;
     flex-direction: column;     
@@ -316,31 +317,32 @@ section h2 {
     background-color: #f2f2f2;
     border-radius: 20px;
     margin-right: 49px;
-    margin-left: 35px;
-    
+    margin-left: 35px;    
 }
+
 #popular a {    
     width: 100%;
 }
+
 #head__popular {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 15px;
-    
+    margin-bottom: 15px;    
 }
+
 #popular__title {
     margin-top :40px;
     margin-left: 34px;
     font-size: 22px;
     font-weight: bold;
 }
+
 #head__popular i {
     margin-top: 41px;
     margin-right: 38px;
     font-size: 23px;
 }
-
 
 .popular__container {
     margin: auto;
@@ -355,6 +357,7 @@ section h2 {
     margin-top: 5px;
     cursor: pointer;
 }
+
 .image__container {
     width: 130px;
     height: 135px;
@@ -362,6 +365,7 @@ section h2 {
     border-radius: 15px 0px 0px 15px;
     margin: 5px;
 }
+
 .popular__container img{
     width: 130px;
     height: 140px;        
@@ -381,10 +385,10 @@ section h2 {
     font-size: 14px;
     margin-top: 10px;
 }
+
 #popular .stars {
     margin: 0;
-    margin-top: 40px;
-    
+    margin-top: 40px;    
 }
 
 #activity {
@@ -402,6 +406,7 @@ section h2 {
     margin-top: 60px;
     margin-left: 50px;
 }
+
 .activity__big {    
     width: 304px;
     height: 447px;
@@ -421,8 +426,7 @@ section h2 {
     height: 447px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between
-    
+    justify-content: space-between    
 }
 
 .activity__box {
@@ -430,18 +434,20 @@ section h2 {
     border-radius: 20px;
     box-shadow: 1px 3px 15px #c0c0c0;
 }
+
 #box__img--vieuxPort {
     height: 390px;
 }
 
-
 .activity__box--pomegues {
     height: 240px;
 }
+
 #box__img--pomegues {
     height: 180px;
     overflow: hidden;
 }
+
 .activity__img--container {
     overflow: hidden;
 }
@@ -449,27 +455,27 @@ section h2 {
 .activity__img--container img {   
     height: 130%;
     object-fit: cover;
-    object-position: center;
-   
- 
+    object-position: center; 
 }
+
 .activity__box--frioul {
     height: 165px;
-    margin-left: 3px;
-    
+    margin-left: 3px;    
 }
+
 #box__img--frioul {
     height: 110px;
     overflow: hidden;
 }
+
 #box__img--parc {
     height: 390px;
 }
 
-
 .activity__box--NDDLG {
     height: 195px;
 }
+
 #box__img--NDLG {
     height: 140px;
 }
@@ -477,6 +483,7 @@ section h2 {
 .activity__box--longchamp {
     height: 210px;
 }
+
 #box__img--longchamp {
     height: 152px;
 }
@@ -484,6 +491,7 @@ section h2 {
 #activity img {
     width: 100%;
 }
+
 footer {
     display: flex;         
     width: 100%;    
@@ -491,6 +499,7 @@ footer {
     margin-top: 60px;
     background-color: #f2f2f2;
 }
+
 .block {
     margin-left: 50px;
     margin-top: 32px;
@@ -498,23 +507,28 @@ footer {
     
     
 }
+
 .block--accomodations {    
     margin-left: 228px;
 }
+
 .block--help {
     margin-left: 294px;
 }
+
 .block h2{
     font-size: 1.08em;
 }
+
 .block p {
     margin-top: 8px;
 }
+
 .block p:nth-child(2) {
     margin-top: 20px;
-    margin-bottom: 12px;
-       
+    margin-bottom: 12px;       
 }
+
 .block p:nth-child(3) {
     margin-bottom: 13px;
 }
