@@ -1,13 +1,16 @@
 /************TABLETTE************/
 @media  screen and (min-width: 834px) and (max-width: 1415px) {
+
     body {
         width: 100%;
         margin: auto;
     }
+
     #header__logo img {
         margin-top: 35px;
         margin-left: 10px;
     }
+
     #header__nav ul{
         margin-right: 30px;
     }  
@@ -23,8 +26,7 @@
         margin: 0;
         font-size: 0.8em;
         margin-left: 10px;
-        padding-top: 0;  
-
+        padding-top: 0; 
     }
     
     h2 {
@@ -36,16 +38,18 @@
         width: 380px;
         height: 51px;
         margin-right: 30px;
-        margin-top: 0px;
-        
+        margin-top: 0px;        
     }
+
     .btn {
         display: none;
     }
+
     #search i {
         width: 51px;
         height: 51px;
     }
+
     #search input {
         width: 80%;
     }
@@ -59,40 +63,41 @@
         border-radius: 15px;       
         margin: 0;        
         padding: 0;
-        margin-left: 3px;
-       
+        margin-left: 3px;       
     }
+
     #search .loupe i {
         background-color: #0065FC;
         border-radius: 15px;
         font-size: 1em;
-        margin-right: 0;
-
-       
+        margin-right: 0;       
     }
+
     #filters {
         margin-top: 10px;        
         padding: 0;
         justify-content: center;
-        
-
     }
+
     .btnFilters {        
         justify-content: center;
     }
+
     .btnBox {
         height: 38px;
-        margin-bottom: 10px;
-        
+        margin-bottom: 10px;        
     }
+
     .btnBox i{
         height: 42px;
         width: 42px;
         line-height: 42px;
     }
+
     .info {
         justify-content: center;
     }
+
     #middle {
         flex-wrap: wrap-reverse;
         justify-content: center;
@@ -110,66 +115,72 @@
     #accomodation__title {        
         margin: 10px;
         margin-left: 100px;
-        margin-top: 40px;
-
-        
+        margin-top: 40px;        
     }
 
     .accomodation__container {
         width: 100%;
         margin: 0;
     }
+
     .vignette__container {
         width: 40%;
         margin: 10px;        
         overflow: hidden;       
     }
+
     .vignette__container h2 {
         margin-left: 14px;
     }
+
     .vignette {               
-         width: auto;
-        
-        overflow: hidden;     
-        
+        width: auto;        
+        overflow: hidden;           
     }
+
     .vignette img {
         margin: 0px;
         width: 100%;
-    }    
+    }  
+
     section h2 {
         margin-left: 100px;
     }
+
     #popular {
         margin: 0;
         padding: 0;
-        width: 90%;
-       
+        width: 90%;       
     }
+
     #head__popular {
         width: 50%;
     }
+
     .popular__container {
         width: 40%;        
     }
+
     #activity__h1 {
         margin-top: 0;
-        margin-left: 100px;
-       
+        margin-left: 100px;       
     }
+
     #activity {
         flex-direction: column;  
         height: 994px;   
         margin-top: 0;
         align-items: center;
     }
+
     .activity__big, .activity__small {
         width: 33%;
     }
    
     footer {
         justify-content: space-around;
-    }   
+    } 
+      
     .block {
         margin: 0;
         margin-top: 20px;

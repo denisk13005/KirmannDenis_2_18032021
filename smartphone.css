@@ -1,5 +1,6 @@
 /*************************SMARTPHONE****************************/
-@media  screen and (min-width: 350px) and (max-width : 833px){    
+@media  screen and (max-width : 833px){    
+    
     body{
         margin: 0;
         padding: 0;
@@ -15,62 +16,64 @@
         margin: 0;
         padding: 0;
         padding-left: 20px;
-        padding-top: 22px;
-        
+        padding-top: 22px;        
     }
+
     #header__nav {        
         margin: 0;        
         padding: 0;
-        width: 100%;
-        
+        width: 100%;        
     }
-    #header__nav ul {
-        
+
+    #header__nav ul {        
         margin: 0;
         padding: 0;                
-        justify-content: flex-end;
-        
+        justify-content: flex-end;        
     }
+
     #header__nav  li {
         margin: 0;
         width: 50%;
         text-align: center;        
     }
+
     #header__nav a:active {
         border-top: none;
     }
+
     #header__nav ul li:nth-child(3){
         order: -2;
         text-align: end;
         padding-right: 21px;        
         position: relative;
-        bottom: 30px;
-        
-            
+        bottom: 30px;            
     }
+
     #header__nav li:nth-child(1){
         margin-right: 50%;
         margin-top: 7px;
         border-bottom: 2px solid #f2f2f2;
         padding-bottom: 14px;
-
     }
+
     #header__nav li:nth-child(2){
         position: relative;
         bottom: 35px;
         padding-bottom: 14px;
         border-bottom: 2px solid #f2f2f2;
     }
+
     #header__nav li:nth-child(1):active{
         border-bottom: 4px solid #0065FC;
         padding-bottom: 12px;
     }
+
     #header__nav li:nth-child(2):active{
         border-bottom: 4px solid #0065FC;
         padding-bottom: 12px;
     }
-    #premierParagraphe{
-        
+
+    #premierParagraphe{        
         margin-top: 0px;
         margin-right: 66px;
         margin-left: 21px;        
@@ -79,27 +82,23 @@
     #premierParagraphe h1 {
         font-size: 1.3em;
         margin: 0;
-        padding: 0;
-        
+        padding: 0;        
     }
+
     #premierParagraphe h2 {
         margin-top: 12px;
-        font-size: 0.98em;
-        
-    }    
-    
+        font-size: 0.98em;        
+    }       
    
     #search {
         width: 340px;
         margin-top: 35px;
-        margin-left: 25px;
-        
+        margin-left: 25px;        
     }
    
     #search .btn {
         display: none;
-    }
-   
+    }   
     
     #search .loupe {
         width: auto;
@@ -109,97 +108,101 @@
         color: white;        
         border-radius: 15px;             
         margin: 0;
-        padding: 0;        
-        
-        
-       
+        padding: 0; 
     }
+
     #search .loupe i {
         background-color: #0065FC;
         border-radius: 15px;
         font-size: 1em;
-        margin-right: 0;
-
-       
+        margin-right: 0;        
     }
+
     #filters {
     margin-top: 15px;  
     margin-left: 2px;
     font-size: 1.1em;
     margin-bottom: 22px;
     }
+
     #filters p {
         margin-left: 20px;
     }
+
     .btnFilters {
         margin-left: 20px;
         margin-top: -2px;
     }
-    .btnBox {
 
+    .btnBox {
         font-size: 16px;
         margin-right: 10px;        
-        margin-bottom: 12px;
-        
+        margin-bottom: 12px;        
     }
+
     .btnBox:hover {
         margin-right: 8px;
-
     }
+
     .info {
         margin: 0;
         padding: 0;
-        margin-left: 18px;
-        
+        margin-left: 18px;        
     }
+
     .info div {       
         align-self: flex-start;
         margin-top: 1px;       
-        
     }
+
     .info p {
         margin-left: 0px;
         margin-top: 4px;
     }
+
     #middle {
         flex-wrap: wrap-reverse;
         justify-content: center;
     }
+
     #accomodation {
         margin: 0;       
         min-width: 0;      
         width: 100%;
         background-color: white;
     }
+
     #accomodation__title {
         margin-left: 20px;
     }
+
     .accomodation__container {        
         width: 100%;
         align-items: center;
     }
+
     .vignette__container {
         width: 70%;
         min-width: 334px; 
         margin-top: 0;               
         margin-bottom: 10px;
-        overflow: hidden;          
-        
+        overflow: hidden;         
     }
 
     .vignette {               
-        width: auto;
-           
-        
+        width: auto;       
     }
+
     .vignette img {
         margin: 0px;
         width: 100%;
     }  
+
     section h2 {
         margin-left: 20px;  
         margin-top: 25px;
     } 
+
     #popular {
         min-width: 0;
         width: 100%;
@@ -207,55 +210,61 @@
         height: 578px ;
         margin: 0;
         margin-top: 15px;   
-        border-radius: 0;     
-
+        border-radius: 0; 
     } 
     
     #head__popular {
         margin-bottom: 18px;
     }
+
     #popular__title {
         margin-left: 20px;
     }
+
     #head__popular i {
         margin-right: 17px;
-
     }
+
     .popular__container {
         margin-bottom: 5px;
     }
+
     #activity {
         width: 100%;
         margin: 0;
         margin-top: 10px;
     }
+
     #activity__h1 {
         margin-top: 8px;
         margin-left: 20px;
     }
+
     .activity__big {
         margin: 0;
         width: 90%;
         height: 190px;
         margin-bottom: 22px;
     }
-    
+
     .activity__small {
         width: 90%;
         justify-content: flex-start;
-        height: auto;
-        
+        height: auto;        
     }
+
     .activity__box {
         width: 100%; 
         height: 190px;
         margin-bottom: 22px;
         overflow: hidden;
     }  
+
     .activity__img--container {
         height: 133px;
         overflow: hidden;
     }  
+
     #box__img--vieuxPort,
     #box__img--pomegues,
     #box__img--frioul,
@@ -271,17 +280,20 @@
         margin-top: 50px;      
         padding: 0;
     }
+
     .block--about {
         margin: 0;
         margin-top: 45px;
         margin-left: 27px;
         margin-bottom: 0;
     }
+
     .block--accomodations {
         margin: 0;
         margin-top: 10px;
         margin-left: 32px;
     }
+    
     .block--help {
         margin: 0;
         margin-top: 25px;
