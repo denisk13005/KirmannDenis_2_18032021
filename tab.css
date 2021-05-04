@@ -19,7 +19,6 @@
         display: flex;
         justify-content: space-between;        
         align-items: center;
-
     }
 
     #premierParagraphe {
@@ -177,7 +176,7 @@
         width: 33%;
     }
    
-    footer {
+    .container {
         justify-content: space-around;
     } 
       
