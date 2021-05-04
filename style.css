@@ -491,13 +491,17 @@ section h2 {
 #activity img {
     width: 100%;
 }
-
 footer {
-    display: flex;         
-    width: 100%;    
-    height: auto;
-    margin-top: 60px;
     background-color: #f2f2f2;
+}
+.container {
+    display: flex;         
+    width: 100%;   
+    max-width: 1610px; 
+    height: auto;
+    margin : auto;
+    margin-top: 60px;
+    
 }
 
 .block {
